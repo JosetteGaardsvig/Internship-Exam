@@ -50,7 +50,7 @@ pacman::p_load("tidyverse", "magrittr", "nycflights13", "gapminder",
 Adelby Avionics is a three year old company, who develops and produces instruments for smaller airplanes.
 Until now Adelby Avionics has developed three different products.
 In my period of internship I have done different types of market research, especially focused on customers, dealers and pricing, and I have begun the construction of a shiny dashboard for showing metrics directly fetched from an API on the company's server.
-In general it has been a positive experience working for Adelby Avionics. The products are interesting and the company has potential to be data-driven, though it for now still is in the beginners face. The lack of data has given some problems in the internship as general, as there were none to begin with, and at this moment only has been initiated in smaller scale. But I feel that I have had some influence over time, and more steps have recently been taken to make the company data-driven in the future both according to consumer data and product data.
+In general it has been a positive experience working for Adelby Avionics. The products are interesting and the company has potential to be data-driven, though it for now still is in the beginning fase. The lack of data has given some problems in the internship as general, as there were none to begin with, and at this moment only has been initiated in smaller scale. But I feel that I have had some influence over time, and more steps have recently been taken to make the company data-driven in the future both according to consumer data and product data.
 
 # Praktikrapport - Adelby Avionics
 
@@ -221,11 +221,11 @@ Hjemmesiden er under konstruktion, og flere muligheder vil sandsynligvis opstå 
 
 ### Fremtidige muligheder for datalogning fra produktbrug
 
-AA har udviklet en kunstflyvningslogger, som kan logge flyvninger i reel tid og opbevare disse. Til loggeren er tilknyttet et program, der ligger på en desktop, som kan tage de data loggeren sender og vise disse i 3D på en skærm (6-akset data) plus 3 drejningsakser.
+AA har udviklet en kunstflyvningslogger, som kan logge flyvninger i reel tid og opbevare disse. Til loggeren er tilknyttet et program, der ligger på en desktop, som kan tage de data loggeren sender og vise disse i 3D på en skærm (6-akset: 3 retningsakser + 3 drejningsakser).
 Instrumentet opdaterer 50 gange i sekundet og kan sammen med programmet uploade og gemme gps data med tidspunkt for handlinger til brug både på nettet i en browser og så flyvninger kan følges direkte fra jorden.
 
-Udfordringen er at anvende ADSB (automatic dependent surveilliance - broadcast) til at logge på lange afstande.
-AA laver også en ADSB enhed som loggeren kan kobles op til.
+Udfordringen er at anvende ADS-B (automatic dependent surveilliance - broadcast) til at logge på lange afstande.
+AA laver også en ADS-B enhed som loggeren kan kobles op til.
 
 Loggeren kan sættes op off line til at overvåge produktet og sende data om fejl tilbage til AA, med det formål at kunne forbedre dette, så det optimale produkt opnås, samt til at vurdere hvor troværdige dataene generelt er.
 
@@ -261,7 +261,7 @@ https://medium.com/swlh/creating-a-live-world-weather-map-using-shiny-f2ad05a08a
 (Worldmap in dashboard)
 
 https://globe.adsbexchange.com/
-(adsb exchange - live tracking)
+(ADS-B exchange - live tracking)
 
 
 
